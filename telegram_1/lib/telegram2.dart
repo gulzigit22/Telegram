@@ -47,7 +47,7 @@ class _mainig2State extends State<mainig2> {
                   style: TextStyle(fontSize: 25, color: Colors.white),
                 ),
                 Text(
-                  'был(а) в 12:46',
+                  'был() в 12:46',
                   style: TextStyle(
                       fontSize: 15, color: Color.fromARGB(255, 91, 89, 89)),
                 )
@@ -79,7 +79,7 @@ class _mainig2State extends State<mainig2> {
           minLines: 1,
           decoration: InputDecoration(
             focusColor: Colors.white,
-            // fillColor: Colors.black.withOpacity(0.6),
+            fillColor: Colors.black.withOpacity(0.6),
             filled: true,
 
             // fillColor: Colors.white,
